@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KienPT40\\C#Test\\Task1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|c:\\users\\kienpt40\\c#test\\task1\\task1\\page\\controller\\cartpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|solutionrelative:task1\\page\\controller\\cartpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|c:\\users\\kienpt40\\c#test\\task1\\task1\\page\\controller\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|solutionrelative:task1\\page\\controller\\productpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|c:\\users\\kienpt40\\c#test\\task1\\task1\\page\\controller\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|solutionrelative:task1\\page\\controller\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|c:\\users\\kienpt40\\c#test\\task1\\task1\\page\\controller\\signuppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|solutionrelative:task1\\page\\controller\\signuppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|C:\\Users\\KienPT40\\C#Test\\Task1\\task1\\test\\setup\\setuptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FA3489-585E-4202-92DE-D205BB7AF110}|Task1\\Task1.csproj|solutionrelative:task1\\test\\setup\\setuptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductPage.cs",
+              "DocumentMoniker": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Page\\Controller\\ProductPage.cs",
+              "RelativeDocumentMoniker": "Task1\\Page\\Controller\\ProductPage.cs",
+              "ToolTip": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Page\\Controller\\ProductPage.cs",
+              "RelativeToolTip": "Task1\\Page\\Controller\\ProductPage.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:07:33.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Page\\Controller\\LoginPage.cs",
+              "RelativeDocumentMoniker": "Task1\\Page\\Controller\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Page\\Controller\\LoginPage.cs",
+              "RelativeToolTip": "Task1\\Page\\Controller\\LoginPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:07:18.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUpPage.cs",
+              "DocumentMoniker": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Page\\Controller\\SignUpPage.cs",
+              "RelativeDocumentMoniker": "Task1\\Page\\Controller\\SignUpPage.cs",
+              "ToolTip": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Page\\Controller\\SignUpPage.cs",
+              "RelativeToolTip": "Task1\\Page\\Controller\\SignUpPage.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:06:50.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartPage.cs",
+              "DocumentMoniker": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Page\\Controller\\CartPage.cs",
+              "RelativeDocumentMoniker": "Task1\\Page\\Controller\\CartPage.cs",
+              "ToolTip": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Page\\Controller\\CartPage.cs",
+              "RelativeToolTip": "Task1\\Page\\Controller\\CartPage.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:14:44.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SetUpTest.cs",
+              "DocumentMoniker": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Test\\Setup\\SetUpTest.cs",
+              "RelativeDocumentMoniker": "Task1\\Test\\Setup\\SetUpTest.cs",
+              "ToolTip": "C:\\Users\\KienPT40\\C#Test\\Task1\\Task1\\Test\\Setup\\SetUpTest.cs",
+              "RelativeToolTip": "Task1\\Test\\Setup\\SetUpTest.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:18:15.005Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
