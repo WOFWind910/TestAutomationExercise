@@ -18,10 +18,9 @@ namespace Task1.Setup
             {
                 case Browser.Chrome: return new ChromeDriver();
                 case Browser.Edge:
-                                   EdgeOptions options = new EdgeOptions();
+                                    EdgeOptions options = new EdgeOptions();
                                     EdgeDriverService service = EdgeDriverService.CreateDefaultService();
-                                    service.UseShellExecute = false; // chỉ có trên .NET 6+ với Edge x64
-                                    new EdgeDriver(service, options);
+                                    return new EdgeDriver(service, options);
                 default:
                     {
                         Console.WriteLine("Không có browser phù hợp!");
