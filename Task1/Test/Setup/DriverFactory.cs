@@ -18,13 +18,8 @@ namespace Task1.Setup
             {
                 case Browser.Chrome: return new ChromeDriver();
                    case Browser.Edge:
-                                    var options = new EdgeOptions();
-                                    options.AddArgument("headless"); 
-                                    options.AddArgument("disable-gpu"); 
-                                    options.AddArgument("disable-gpu");
-                                    options.AddArgument("no-sandbox");
-                                    options.AddArgument("disable-dev-shm-usage");
-                                
+                                   var options = new EdgeOptions();
+                                    options.BinaryLocation = @"C:\Program Files\Microsoft\Edge\Application\msedge.exe";
                                     var service = EdgeDriverService.CreateDefaultService(@"C:\WebDriver");
                                     return new EdgeDriver(service, options);
                 default:
