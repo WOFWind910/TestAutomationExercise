@@ -19,7 +19,8 @@ namespace Task1.Setup
                 case Browser.Chrome: return new ChromeDriver();
                    case Browser.Edge:
                                     var options = new EdgeOptions();
-                                    options.AddArgument("headless");
+                                    options.AddArgument("headless"); 
+                                    options.AddArgument("disable-gpu"); 
                                     options.AddArgument("disable-gpu");
                                     options.AddArgument("no-sandbox");
                                     options.AddArgument("disable-dev-shm-usage");
