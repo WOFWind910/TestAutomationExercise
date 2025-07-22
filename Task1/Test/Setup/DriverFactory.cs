@@ -17,15 +17,17 @@ namespace Task1.Setup
             switch (b)
             {
                 case Browser.Chrome: return new ChromeDriver();
-               case Browser.Edge:
+                case Browser.Edge:
                                     var options = new EdgeOptions();
-                                    options.AddArgument("headless"); // chạy không giao diện
-                                    options.AddArgument("disable-gpu"); // bắt buộc khi headless trên Windows
-                                    options.AddArgument("no-sandbox"); // tránh lỗi sandbox Jenkins
-                                    options.AddArgument("disable-dev-shm-usage"); // cải thiện hiệu suất headless
-                                    options.UseWebDriverManager = false; // Tắt Selenium Manager (nếu bạn dùng Selenium 4.11+)
+                                    options.AddArgument("headless");
+                                    options.AddArgument("disable-gpu"); 
+                                    options.AddArgument("no-sandbox"); 
+                                    options.AddArgument("disable-dev-shm-usage"); 
+                                    options.BinaryLocation = @"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe";
                                     var service = EdgeDriverService.CreateDefaultService(@"C:\WebDriver");
+                                    service.UseShellExecute = false; 
                                     return new EdgeDriver(service, options);
+
                 default:
                     {
                         Console.WriteLine("Không có browser phù hợp!");
