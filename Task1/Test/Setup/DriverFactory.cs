@@ -25,7 +25,7 @@ namespace Task1.Setup
                                     options.AddArgument("no-sandbox");
                                     options.BinaryLocation = @"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe";
                                     var driverPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Drivers"); // ví dụ để sẵn driver ở đây
-                                    var service = EdgeDriverService.CreateDefaultService(driverPath);
+                                    var service = EdgeDriverService.CreateDefaultService(@"C:\WebDriver\");
                                     return new EdgeDriver(service, options);
                 default:
                     {
