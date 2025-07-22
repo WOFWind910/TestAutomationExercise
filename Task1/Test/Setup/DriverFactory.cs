@@ -20,11 +20,13 @@ namespace Task1.Setup
                 case Browser.Edge:
                                     var options = new EdgeOptions();
                                     options.BinaryLocation = @"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe";
-                                    options.AddArgument("headless=new");  // KHÔNG dùng "headless" cũ
-                                    options.AddArgument("disable-gpu");
+                                    options.AddArgument("headless=new");               
+                                    options.AddArgument("disable-gpu");              
                                     options.AddArgument("no-sandbox");
                                     options.AddArgument("disable-dev-shm-usage");
                                     var service = EdgeDriverService.CreateDefaultService(@"C:\WebDriver");
+                                    service.UseShellExecute = false;
+                                    service.HideCommandPromptWindow = true;
                                     return new EdgeDriver(service, options);
                 default:
                     {
