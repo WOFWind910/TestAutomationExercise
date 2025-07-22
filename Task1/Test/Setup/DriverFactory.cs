@@ -22,8 +22,7 @@ namespace Task1.Setup
                                     options.AddArgument("headless");       // Nếu chạy Jenkins thì nên dùng
                                     options.AddArgument("disable-gpu");    // Bắt buộc với headless
                                     options.AddArgument("no-sandbox");     // Tránh lỗi sandbox trong CI/CD
-                                    options.BinaryLocation = @"C:\Program Files\Microsoft\Edge\Application\msedge.exe";
-                        
+                                    options.BinaryLocation = @"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe";
                                     var service = EdgeDriverService.CreateDefaultService();
                                     return new EdgeDriver(service, options); // ✅ RETURN
                 default:
