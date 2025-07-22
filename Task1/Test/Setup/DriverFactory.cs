@@ -19,16 +19,13 @@ namespace Task1.Setup
                 case Browser.Chrome: return new ChromeDriver();
                 case Browser.Edge:
                                     var options = new EdgeOptions();
-                                    options.AddArgument("headless"); // nếu chạy Jenkins thì nên headless
-                                    options.AddArgument("disable-gpu"); // cần thiết cho chế độ headless
-                                    options.AddArgument("no-sandbox"); // tránh lỗi bảo mật trong CI
+                                    options.AddArgument("headless");       // Nếu chạy Jenkins thì nên dùng
+                                    options.AddArgument("disable-gpu");    // Bắt buộc với headless
+                                    options.AddArgument("no-sandbox");     // Tránh lỗi sandbox trong CI/CD
                                     options.BinaryLocation = @"C:\Program Files\Microsoft\Edge\Application\msedge.exe";
-                                
+                        
                                     var service = EdgeDriverService.CreateDefaultService();
-                                    // ❌ KHÔNG dùng: service.UseShellExecute
-                                    
-                                    driver = new EdgeDriver(service, options);
-                                    break;
+                                    return new EdgeDriver(service, options); // ✅ RETURN
                 default:
                     {
                         Console.WriteLine("Không có browser phù hợp!");
