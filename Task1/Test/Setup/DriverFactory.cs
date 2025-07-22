@@ -20,12 +20,16 @@ namespace Task1.Setup
                 case Browser.Chrome: return new ChromeDriver();
                 case Browser.Edge:
                                     var options = new EdgeOptions();
-                                    options.AddArgument("headless");
+                                    options.AddArgument("headless=new");
                                     options.AddArgument("disable-gpu");
                                     options.AddArgument("no-sandbox");
+                                    options.AddArgument("disable-dev-shm-usage");
+                                    options.AddArgument("--remote-debugging-port=9222");
                                     options.BinaryLocation = @"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe";
-                                    var driverPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Drivers"); // ví dụ để sẵn driver ở đây
                                     var service = EdgeDriverService.CreateDefaultService(@"C:\WebDriver\");
+                                    service.UseVerboseLogging = true;
+                                    service.UseSpecCompliantProtocol = true;
+                                    service.HideCommandPromptWindow = true;
                                     return new EdgeDriver(service, options);
                 default:
                     {
