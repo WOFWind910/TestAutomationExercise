@@ -18,8 +18,8 @@ namespace Task1.Setup
             {
                 case Browser.Chrome: return new ChromeDriver();
                 case Browser.Edge:
-                                    EdgeOptions options = new EdgeOptions();
-                                    EdgeDriverService service = EdgeDriverService.CreateDefaultService();
+                                    var options = new EdgeOptions();
+                                    var service = EdgeDriverService.CreateDefaultService(@"C:\WebDriver"); // folder chứa msedgedriver.exe
                                     return new EdgeDriver(service, options);
                 default:
                     {
