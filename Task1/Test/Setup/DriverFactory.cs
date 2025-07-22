@@ -17,9 +17,9 @@ namespace Task1.Setup
             switch (b)
             {
                 case Browser.Chrome: return new ChromeDriver();
-                   case Browser.Edge:
-                                   var options = new EdgeOptions();
-                                    options.BinaryLocation = @"C:\Program Files\Microsoft\Edge\Application\msedge.exe";
+                case Browser.Edge:
+                                    var options = new EdgeOptions();
+                                    options.BinaryLocation = @"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe";
                                     var service = EdgeDriverService.CreateDefaultService(@"C:\WebDriver");
                                     return new EdgeDriver(service, options);
                 default:
