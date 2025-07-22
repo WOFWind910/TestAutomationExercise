@@ -26,7 +26,7 @@ namespace Task1.Setup
         public void OneTimeSetUp()
         {
             extent = ExtentManager.GetInstance();
-            driver = DriverFactory.CreateDriver(Browser.Edge);
+            driver = DriverFactory.CreateDriver(Browser.Chrome);
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(15));
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
